@@ -1,0 +1,18 @@
+{
+    "name": "usertilenewdemo",
+    "description": "Web Client UI Extension addons and Fiori Application addons",
+    "version": "0.0.1",
+    "vendor": "sapvendor",
+    "multiple-version": "false",
+    "apiversion": "V1",
+    "user-tiles": [
+        {
+            "id": "my-user-tile-new",
+            "name": "RemoteAppNew",
+            "description": "Web Client Remote Application Extension",
+            "url": "http://10.58.81.232:8081/addon/",
+            "linkmethod": "ExistingWindow",
+            "image": "sap-icon://add-process"
+        }
+    ]
+} 
